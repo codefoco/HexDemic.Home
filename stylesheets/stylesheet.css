@@ -226,13 +226,7 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  border: 0px solid #ebebeb;
 }
 
 p img {
@@ -383,25 +377,18 @@ Full-Width Styles
   font-family: 'Playfair Display';
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  padding-left: 40px;
 }
 
 #main_content {
   padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*******************************************************************************
